@@ -1,0 +1,47 @@
+[
+  {
+    "id": "SVC-01",
+    "domain": "Scalable Web & SaaS Platforms",
+    "keywords": "web app saas dashboard portal react django node nextjs postgres authentication admin multi-tenant",
+    "recommended_stack": ["React / Next.js", "Python (Django / FastAPI)", "PostgreSQL", "Redis", "Docker / AWS"],
+    "base_weeks": 6,
+    "base_cost_usd": 6500,
+    "key_risks": ["Role-based access control edge cases", "Third-party webhook idempotency"]
+  },
+  {
+    "id": "SVC-02",
+    "domain": "AI Automation & Custom LLM / RAG Agents",
+    "keywords": "ai ml llm chatbot rag agent automation nlp gpt gemini document extraction workflow voice",
+    "recommended_stack": ["Python", "FastAPI", "LangChain / LlamaIndex", "Vector DB (pgvector / Qdrant)", "OpenAI / Gemini API"],
+    "base_weeks": 5,
+    "base_cost_usd": 7500,
+    "key_risks": ["Hallucination mitigation & grounding accuracy", "Token latency & API rate limits"]
+  },
+  {
+    "id": "SVC-03",
+    "domain": "Cross-Platform Mobile Applications",
+    "keywords": "mobile app android ios flutter react native push notifications offline sync gps",
+    "recommended_stack": ["React Native / Flutter", "Node.js / Django REST", "Firebase", "PostgreSQL"],
+    "base_weeks": 7,
+    "base_cost_usd": 7000,
+    "key_risks": ["App Store / Play Store review compliance", "Offline state conflict resolution"]
+  },
+  {
+    "id": "SVC-04",
+    "domain": "FinTech, Payments & E-Commerce Systems",
+    "keywords": "payment upi stripe razorpay checkout wallet subscription ecommerce inventory order invoice",
+    "recommended_stack": ["Next.js", "Django / FastAPI", "Stripe / Razorpay SDK", "PostgreSQL", "Celery"],
+    "base_weeks": 6,
+    "base_cost_usd": 8000,
+    "key_risks": ["PCI-DSS compliance & ledger reconciliation", "Payment gateway timeout handling"]
+  },
+  {
+    "id": "SVC-05",
+    "domain": "Data Engineering & Predictive Analytics",
+    "keywords": "analytics bi forecasting prediction dashboard etl pipeline ml model churn recommendation data",
+    "recommended_stack": ["Python", "Pandas / Scikit-Learn", "Apache Airflow", "Snowflake / BigQuery", "Streamlit"],
+    "base_weeks": 5,
+    "base_cost_usd": 6000,
+    "key_risks": ["Upstream data schema drift", "Cold-start training data sparsity"]
+  }
+]
